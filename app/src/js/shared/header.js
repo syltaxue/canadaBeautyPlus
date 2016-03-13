@@ -23,17 +23,6 @@ var Header = React.createClass({
 							</div>
 						</div>
 						<div className = "col-xs-6 col-sm-5">
-							<div className = "header-searchEngine">
-								<div className="ui category search">
-									<div className="ui icon input">
-										<input className="prompt" type="text" placeholder="搜索..."/>
-										<button className="ui icon button" id="header-Search-Icon" onClick={this._onClickSearch} >
-											<i className="search icon"></i>
-										</button>
-									</div>
-									<div className="results"></div>
-								</div>
-							</div>
 						</div>
 						<div className = "col-xs-2 col-sm-2">
 
