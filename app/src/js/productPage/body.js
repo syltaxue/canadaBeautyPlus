@@ -12,10 +12,6 @@ var Product = React.createClass({
 							<div className="ui right rail"></div>
 							<div className="product-description">Product1 文字介绍</div>
 							<div className='product-picture'><Picture/></div>
-							<div className="commentsContainer">
-								{this.renderAddComment()}
-								{this.renderGetTitle()}
-							</div>
 						</div>
 						<div className = "col-sm-1"></div>
 					</div>
