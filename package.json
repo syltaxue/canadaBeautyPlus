@@ -1,0 +1,35 @@
+{
+  "name": "canadabeautyplus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify -t [ babelify --presets [ react ] ] app/src/js/router.js -o public/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syltaxue/canadaBeautyPlus.git"
+  },
+  "keywords": [
+    "canadaBeautyPlus"
+  ],
+  "author": "Kenneth Song",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syltaxue/canadaBeautyPlus/issues"
+  },
+  "homepage": "https://github.com/syltaxue/canadaBeautyPlus#readme",
+  "dependencies": {
+    "babel-core": "^6.7.2",
+    "babel-loader": "^6.2.4",
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.2.0",
+    "browserify": "^13.0.0",
+    "material-ui": "^0.15.0-alpha.1",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-router": "^2.0.1",
+    "react-tap-event-plugin": "^0.2.2",
+    "webpack": "^1.12.14"
+  }
+}

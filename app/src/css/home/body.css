@@ -1,0 +1,31 @@
+.body-container {
+	background-color: white;
+}
+.body-recommendText {
+	padding: 40px 0;
+}
+.body-products {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.body-loadMoreBtn {
+	width: 100%;
+}
+#loadMoreBtn {
+	width: 100%;
+}
+.ui.right.rail {
+	padding: 0;
+	margin: 0;
+	width: 100px;
+}
+.ui.sticky.fixed.top {
+	bottom: 50px;
+	top: initial;
+}
+
+.ui.sticky.bound.bottom {
+	bottom: 50px;
+	position: fixed;
+}

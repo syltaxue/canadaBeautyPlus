@@ -1,0 +1,16 @@
+
+
+.productItem {
+	border-color: #6495ED;
+	border-radius: 20px;
+	border-style: solid;
+	display: inline-block;
+	height: 281px;
+	margin: 40px;
+	width: 198px;
+}
+
+.prompt{
+	width:80%;
+	float:right;
+}
