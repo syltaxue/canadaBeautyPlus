@@ -7,11 +7,11 @@ https://nodejs.org/en/
 2:  Download this project from git   
 You can use either terminal or sourcetree to download the project.   
 In terminal:   
-git clone https://github.com/syltaxue/zhiNengGo.git   
+git clone https://github.com/syltaxue/canadaBeautyPlus.git 
 In SourceTree download the project from the link above   
 3: Install all the dependency libraries   
   a:    
-  cd to your project folder e.g. cd xxx/zhinenggo/   
+  cd to your project folder e.g. cd xxx/canadabeautyplus/   
   b:   
   npm install   
   c:  
@@ -19,5 +19,5 @@ In SourceTree download the project from the link above
   d:   
   sudo npm install gulp -g   
   e:   
-  cd /zhinenggo/semantic/   
+  cd /canadabeautyplus/semantic/   
   gulp build   
