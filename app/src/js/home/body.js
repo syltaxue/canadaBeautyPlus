@@ -34,7 +34,7 @@ var Body = React.createClass({
 						</div>
 						<div className = "body">
 							<div className = "body-container">
-								<div className = "body-recommendText">推荐/精选</div>
+								<div className = "body-recommendText">店主推荐</div>
 								<div className = "body-products">
 									{this.renderProducts()}
 								</div>
