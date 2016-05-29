@@ -25,7 +25,6 @@ var Header = React.createClass({
 						<div className = "col-xs-6 col-sm-5">
 						</div>
 						<div className = "col-xs-2 col-sm-2">
-
 						</div>
 						<div className= "col-sm-1"></div>
 					</div>

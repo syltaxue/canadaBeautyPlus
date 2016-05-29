@@ -12,13 +12,23 @@ var Navigator = React.createClass({
 		return (
 			<div className = "navigator">
 				<div className = "navigator-container">
-					<div className = "navigator-buttons">
-						<div className = "navigator-buttons-button-firstChild">首页</div>
-						<div className = "navigator-buttons-button"><DropDownMenu menuItems={menuItems} /></div>
-						<div className = "navigator-buttons-button"><DropDownMenu menuItems={menuItems} /></div>
-						<div className = "navigator-buttons-button"><DropDownMenu menuItems={menuItems} /></div>
-						<div className = "navigator-buttons-button"><DropDownMenu menuItems={menuItems} /></div>
+					<div className= "col-sm-1"></div>
+					<div className= "col-sm-10 navigator-container-content">
+						<div className= "col-sm-2">
+							<div className="navigator-logo left">Canada Beauty Plus LOGO</div>
+						</div>
+						<div className= "col-sm-10">
+							<div className = "navigator-buttons">
+								<div className = "navigator-buttons-button">首页</div>
+								<div className = "navigator-buttons-button">关于我们</div>
+								<div className = "navigator-buttons-button"><DropDownMenu menuItems={menuItems} /></div>
+								<div className = "navigator-buttons-button"><DropDownMenu menuItems={menuItems} /></div>
+								<div className = "navigator-buttons-button"><DropDownMenu menuItems={menuItems} /></div>
+								<div className = "navigator-buttons-button"><DropDownMenu menuItems={menuItems} /></div>
+							</div>
+						</div>
 					</div>
+					<div className= "col-sm-1"></div>
 				</div>
 			</div>
 		);

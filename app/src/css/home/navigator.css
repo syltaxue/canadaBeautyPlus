@@ -6,7 +6,11 @@
 }
 	.navigator-container {
 		background-color: blueviolet;
+		display: flex;
 	}
+		.navigator-container-content {
+			display: flex;
+		}
 	.navigator-picture {
 		height: 400px;
 		background-color: antiquewhite;
