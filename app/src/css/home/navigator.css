@@ -38,3 +38,9 @@
 .item {
 	justify-content: center;
 }
+
+
+.nav-dropDown-subMenu .dropdown-menu {
+	right: -101%;
+	top: 0 !important;
+}

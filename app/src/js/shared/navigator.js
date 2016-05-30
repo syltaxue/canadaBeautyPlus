@@ -32,7 +32,13 @@ var Navigator = React.createClass({
 										<MenuItem eventKey="3.2">Another action</MenuItem>
 										<MenuItem eventKey="3.3">Something else here</MenuItem>
 										<MenuItem divider />
-										<MenuItem eventKey="3.4">Separated link</MenuItem>
+										<NavDropdown eventKey={3.4} title="Link" id="nav-dropdown" className="nav-dropDown-subMenu">
+											<MenuItem eventKey="3.4.1">Action</MenuItem>
+											<MenuItem eventKey="3.4.2">Another action</MenuItem>
+											<MenuItem eventKey="3.4.3">Something else here</MenuItem>
+											<MenuItem divider />
+											<MenuItem eventKey="3.4.4">Separated link</MenuItem>
+										</NavDropdown>
 									</NavDropdown>
 									<NavDropdown eventKey={4} title="母婴" id="nav-dropdown">
 										<MenuItem eventKey="4.1">Action</MenuItem>
