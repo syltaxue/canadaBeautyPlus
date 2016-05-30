@@ -39,8 +39,24 @@
 	justify-content: center;
 }
 
-
+.navigator {
+	margin: 0;
+	min-height: auto !important;
+	border-color: purple;
+}
 .nav-dropDown-subMenu .dropdown-menu {
 	right: -101%;
 	top: 0 !important;
+}
+
+.carousel-inner, {
+	height: 500px;
+}
+
+.carousel-inner .active, .navigator-picture {
+	height: 600px !important;
+}
+
+.navigator-picture {
+	margin: 0;
 }
