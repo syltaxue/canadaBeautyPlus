@@ -15,7 +15,7 @@ var menuItems = [
 var Navigator = React.createClass({
 	render: function() {
 		return (
-			<div className = "navigator">
+			<div className = "navigator navbar navbar-default">
 				<div className = "navigator-container">
 					<div className= "col-sm-1"></div>
 					<div className= "col-sm-10 navigator-container-content">
