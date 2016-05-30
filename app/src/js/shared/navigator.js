@@ -1,17 +1,9 @@
 var React = require("react");
-var DropDownMenu = require('material-ui/lib/drop-down-menu');
 var Nav = require('react-bootstrap').Nav;
 var NavDropdown = require('react-bootstrap').NavDropdown;
 var MenuItem = require('react-bootstrap').MenuItem;
 var NavItem = require('react-bootstrap').NavItem;
 
-var menuItems = [
-	{ payload: '1', text: '分类' },
-	{ payload: '2', text: '类型1' },
-	{ payload: '3', text: '类型2' },
-	{ payload: '4', text: '类型3' },
-	{ payload: '5', text: '类型4' }
-];
 var Navigator = React.createClass({
 	render: function() {
 		return (
