@@ -8,7 +8,7 @@ var hashHistory = require('react-router').hashHistory;
 var injectTapEventPlugin = require("react-tap-event-plugin");
 var Main = require('./home/main');
 var ProductPage = require('./productPage/main');
-injectTapEventPlugin();
+// injectTapEventPlugin();
 render((
 	<Router history={hashHistory}>
 		<Route path="/" component={Main}>
